@@ -103,10 +103,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
 const key_override_t opening_parentheses_override = ko_make_basic(MOD_BIT(KC_RALT), KC_T, KC_LPRN);
 const key_override_t closing_parentheses_override = ko_make_basic(MOD_BIT(KC_RALT), KC_D, KC_RPRN);
-const key_override_t opening_bracket_override = ko_make_basic(MOD_BIT(KC_RALT), KC_S, KC_LBRC);
-const key_override_t closing_bracket_override = ko_make_basic(MOD_BIT(KC_RALT), KC_C, KC_RBRC);
-const key_override_t opening_cbracket_override = ko_make_basic(MOD_BIT(KC_RALT), KC_R, KC_LCBR);
-const key_override_t closing_cbracket_override = ko_make_basic(MOD_BIT(KC_RALT), KC_X, KC_RCBR);
+const key_override_t opening_bracket_override = ko_make_basic(MOD_BIT(KC_RALT), KC_S, KC_LCBR);
+const key_override_t closing_bracket_override = ko_make_basic(MOD_BIT(KC_RALT), KC_C, KC_RCBR);
+const key_override_t opening_cbracket_override = ko_make_basic(MOD_BIT(KC_RALT), KC_R, KC_LBRC);
+const key_override_t closing_cbracket_override = ko_make_basic(MOD_BIT(KC_RALT), KC_X, KC_RBRC);
 
 // This globally defines all key overrides to be used
 const key_override_t *key_overrides[] = {
